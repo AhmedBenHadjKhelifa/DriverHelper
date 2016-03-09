@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/DriverHelper" version="1.0.0" viewmodes="fullscreen">
+    <access origin="*" subdomains="true"></access>
+    <tizen:application id="BeIuGQSSk4.DriverHelper" package="BeIuGQSSk4" required_version="2.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="CarCare-Icon.png" height="117" width="117"/>
+    <name>DriverHelper</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/vehicle"/>
+    <tizen:privilege name="http://tizen.org/privilege/content.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/speech"/>
+    <tizen:privilege name="http://tizen.org/privilege/location"/>
+    <tizen:privilege name="http://tizen.org/privilege/location.gps"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/volume.set"/>
+    <tizen:privilege name="http://tizen.org/privilege/websetting"/>
+    <tizen:privilege name="http://tizen.org/privilege/fullscreen"/>
+    <tizen:privilege name="http://tizen.org/privilege/geolocationpermission.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/http"/>
+    <tizen:privilege name="http://tizen.org/privilege/socket"/>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
