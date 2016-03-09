@@ -1,0 +1,139 @@
+#radio{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 2;
+	display: table;
+}
+
+.About{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	z-index: 2;
+	display: table;
+	height: 60px;
+	width : 160px;
+}
+
+.retour{
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	bottom: 100px;
+	left: 290px;
+	z-index:100;
+}
+.audioPlayer{
+	height: 60px;
+	width: 200px;
+	position: absolute;
+	bottom: 50px;
+	z-index:100;
+}
+
+.retourRadio{
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index:100;
+}
+.Rechercher{
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	top: 10px;
+	left: 230px;
+	z-index:100;
+}
+
+.chercher{
+	height: 20px;
+	width: 200px;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	z-index:100;
+}
+.suivant{
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	bottom: 100px;
+	left: 400px;
+	z-index:100;
+}
+
+
+#menu{
+	z-index: 1;
+}
+.CentralNode { 
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+
+.StatusB { 
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 35%;
+    right: 0;
+    bottom: 0;
+    }
+.RadioB { 
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    }
+.DashboardB { 
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+.MapB { 
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 35%;
+    bottom: 0;
+    }
+div.test {
+    height: 100%;
+    border: 3px solid #73AD21;
+}
+.background{
+	 background-image: url("../img/Menu/Background2.png");
+	background-position: center center;
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
+-o-background-size: 100% 100%;        /* Opera 9.5 */
+-webkit-background-size: 100% 100%;   /* Safari 3.0 */
+background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) > CSS3 */ 
+}
+body,html {
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

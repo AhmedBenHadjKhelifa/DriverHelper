@@ -1,0 +1,1 @@
+var template={compile:function(e,t,n,r){"use strict";if(n===null||n===undefined)n="#content";$.get(t,function(t){$.templates({tmpl:t}),$(n).html($.render.tmpl(e)),!r||r()},"html").error(function(e){console.log(t+" jQuery GET error status: "+e.status+" status text: "+e.statusText),console.log(e)})}}
